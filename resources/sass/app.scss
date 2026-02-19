@@ -6,3 +6,78 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+/* ===== Custom Styling ===== */
+
+body {
+    background-color: #f4f4f6;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+    background-color: #b76e79 !important; 
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: white !important;
+}
+
+.navbar .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.btn-primary {
+    background-color: #b76e79 !important;
+    border-color: #b76e79 !important;
+}
+
+.btn-success {
+    background-color: #8a4f5d !important;
+    border-color: #8a4f5d !important;
+}
+
+.btn-warning {
+    background-color: #d6a5b1 !important;
+    border-color: #d6a5b1 !important;
+    color: black !important;
+}
+
+.table {
+    background-color: white;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #444;
+}
+
+.myHero {
+    background-color: #f2e9ec !important;   
+    color: #444 !important;
+    padding: 80px 0;
+}
+
+.myHero h1, 
+.myHero h2 {
+    color: #444 !important;
+}
+
+.myHero p {
+    color: #555 !important;
+}
+
+
+
+a {
+    color: #8a4f5d !important;   
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b76e79 !important;
+    text-decoration: underline;
+}
+
+

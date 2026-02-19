@@ -3,6 +3,9 @@
 use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\CategoryController;
+Route::resource('categories', CategoryController::class);
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -32,3 +35,5 @@ Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])-
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::view('/about', 'pages.about')->name('about');
+Route::view('/contact', 'pages.contact')->name('contact');
